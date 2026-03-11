@@ -1,8 +1,8 @@
-document.write("<h2>Exercício 1</h2>");
+document.write("<h1 style = 'color : red'>Aula 01 - Exercício 1</h1>");
 
 var numero = prompt("digite um numero qualquer: ");
 
-var quadrado = Number(numero) + Number(numero);
+var quadrado = Number(numero) * Number(numero);
 var cubo = Number(numero) * Number(numero) * Number(numero) * Number(numero);
 
 document.write("<p>O número digitado é " + numero + "</p>");
